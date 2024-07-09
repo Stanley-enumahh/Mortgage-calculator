@@ -2,11 +2,9 @@ import React from "react";
 import FormInputGroup1 from "./forms/form";
 import FormInputGroup2 from "./forms/form2";
 import FormInputGroup3 from "./forms/form3";
-import Results from "./results";
 import { FaPoundSign } from "react-icons/fa";
 import { FaCalculator } from "react-icons/fa";
 import { useState } from "react";
-import ResultForm from "./forms/resultForm";
 
 export default function Calc({ value }) {
   const [MortageAmount, setMortgageAmount] = useState("");

@@ -1,5 +1,4 @@
 import React from "react";
-import ResultForm from "./forms/resultForm";
 
 export default function Results({ value }) {
   return (
