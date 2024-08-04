@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Results({ value }) {
   return (
     <div className="w-[50%] p-5 bg-blue-800 text-white gap-10 flex flex-col">
